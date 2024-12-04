@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Picasso Van Warhol</title>
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" defer></script>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home" class="artist-name">Picasso Van Warhol</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <p>Email: <a href="mailto:1916703372@qq.com" class="email-link">1916703372@qq.com</a></p>
+            <p>Phone: <span class="phone-number">+1 (555) 555-5555</span></p>
+
+            <h2>Leave a Drawing with Your Message</h2>
+            <div class="drawing-container">
+                <canvas id="drawing-pad" width="600" height="400"></canvas>
+                <div class="controls">
+                    <button id="clear-canvas" class="btn">Clear</button>
+                </div>
+                <textarea id="comment" rows="4" class="comment-box" placeholder="Write your comment here..."></textarea>
+                <button id="submit-drawing" class="btn">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Picasso Van Warhol. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="{{ url_for('static', filename='contact.js') }}"></script>
+</body>
+</html>

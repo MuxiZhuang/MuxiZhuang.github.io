@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Picasso Van Warhol</title>
+    <link href="{{ url_for('static', filename='portfolio.css') }}" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home" class="artist-name">Picasso Van Warhol</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="portfolio">
+        <h1 class="portfolio-title">Portfolio</h1>
+        <div class="portfolio-grid">
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/1.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Fragments of Eternity</h2>
+                    <p>1554</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/2.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Beyond the Shifting Line</h2>
+                    <p>1994</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/3.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Where Silence Trembles</h2>
+                    <p>1940</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/4.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>The Weight of Unspoken Light</h2>
+                    <p>1950</p>
+                </div>
+            </div>
+
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/5.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>A Horizon Unfolded</h2>
+                    <p>1965</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/6.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Echoes Between Worlds</h2>
+                    <p>1974</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/7.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Tides of the Unseen</h2>
+                    <p>1908</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/8.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Resonance in the Void</h2>
+                    <p>1960</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/9.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>A Symphony of Absence</h2>
+                    <p>1978</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/10.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Veil of Mutable Shapes</h2>
+                    <p>1984</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/11.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>The Persistence of Stillness</h2>
+                    <p>1997</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/12.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Edges of a Broken Time</h2>
+                    <p>1908</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/13.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>A Gesture Toward Infinity</h2>
+                    <p>1967</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/14.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Shadows in the Open Field</h2>
+                    <p>1986</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/15.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Threads of Dissolving Light</h2>
+                    <p>1987</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/16.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Between the Breaths of Dawn</h2>
+                    <p>1945</p>
+                </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="{{ url_for('static', filename='images/17.jpg') }}" alt="Test Image">
+                <div class="portfolio-overlay">
+                    <h2>Falling into the Quiet Pulse"</h2>
+                    <p>1947</p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Picasso Van Warhol. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
